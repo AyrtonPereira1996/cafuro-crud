@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+div.banner {
+	text-align: center;
+}
+
+div.header {
+	width: 100%;
+}
+
+div.header ul {
+	list-style: none;
+	float: center;
+	width: 25%;
+	margin-left: 39%;
+	margin-right: 36%;
+}
+
+div.header li {
+	padding: 4px;
+	display: inline-block;
+}
+
+div.header li:hover {
+	background-color: #ffd3c9;
+}
+
+div.header a {
+	color: #8c8c8c;
+	text-decoration: none;
+}
+
+div.header a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+div.data-content table {
+	border-collapse: collapse; margin-left : 40%;
+	font-size: 1.5em;
+	margin-left: 30%;
+	width: 50%;
+}
+
+
+
+div.data-content th {
+	height: 50px;
+
+}
+
+div.data-content th, td {
+	border-bottom: 1px solid  #4c0909;
+
+}
+
+div.content-form {
+	width: 50%;
+	margin-left: 40%;
+	font-size: 1.5em;
+	padding: 4px;
+	
+}
+
+div.content-form input.input-box{
+	border:none;
+	border-bottom: 1px solid black;
+	height:20px;
+	font-size: 1em;
+}
+
+div.content-form select {
+	height:25px;
+}
+
+div.content-form input.button{
+	background-color:#62f442;
+	border: none;
+	padding:5px;
+	width:10%;
+	height:40px;
+	margin-left:15%;
+	box-shadow: 1px 1px 5px #adbca9;
+	border-radius:5px;
+}
+
+div.content-form input.button:hover{
+	color:#4c0909;
+	background-color:#a3cec7;
+	transition:0s;
+}
+
+
+
+
+
+
+
+
